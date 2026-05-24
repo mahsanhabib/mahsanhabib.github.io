@@ -9204,7 +9204,7 @@ img.mfp-img {
 
 html {
     background: #f7f9fc;
-    scroll-padding-top: 5.5rem
+    scroll-padding-top: 6.75rem
 }
 
 body {
@@ -9773,7 +9773,7 @@ body {
 
 .folio-section {
     margin: 0 0 1.65rem;
-    scroll-margin-top: 5.5rem
+    scroll-margin-top: 6.75rem
 }
 
 .folio-section h2 {
@@ -9836,11 +9836,11 @@ body {
 
 @media (max-width: 48em) {
     html {
-        scroll-padding-top: 7.25rem
+        scroll-padding-top: 9rem
     }
 
     .folio-section {
-        scroll-margin-top: 7.25rem
+        scroll-margin-top: 9rem
     }
 
     .masthead__inner-wrap {
