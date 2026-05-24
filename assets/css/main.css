@@ -9658,6 +9658,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap: 0.15rem 0.35rem;
     width: 100%
 }
 
@@ -9832,6 +9833,25 @@ body {
 }
 
 @media (max-width: 48em) {
+    .masthead__inner-wrap {
+        padding-top: 0.45rem;
+        padding-bottom: 0.45rem
+    }
+
+    .greedy-nav .visible-links {
+        justify-content: flex-start
+    }
+
+    .greedy-nav .visible-links li:first-child {
+        flex-basis: 100%;
+        margin-right: 0
+    }
+
+    .greedy-nav a {
+        margin: 0 0.55rem 0 0;
+        font-size: 0.82rem
+    }
+
     .folio-intro {
         grid-template-columns: 1fr;
         gap: 1rem
