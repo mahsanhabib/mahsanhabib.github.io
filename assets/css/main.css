@@ -9710,6 +9710,56 @@ body {
     font-size: 0.98rem
 }
 
+.publication-list {
+    display: grid;
+    gap: 1rem
+}
+
+.publication-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e8e8e8
+}
+
+.publication-item:first-child {
+    padding-top: 0
+}
+
+.pub-title {
+    margin: 0 0 0.25rem;
+    color: #222;
+    font-size: 1.02rem;
+    font-weight: 600;
+    line-height: 1.4
+}
+
+.pub-meta {
+    margin: 0 0 0.45rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5
+}
+
+.pub-summary {
+    margin: 0 0 0.45rem;
+    color: #444;
+    font-size: 0.93rem;
+    line-height: 1.6
+}
+
+.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0
+}
+
+.pub-links a {
+    color: #b509ac;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
 .folio-main {
     margin-top: 2.25rem;
     padding-left: 1rem;
