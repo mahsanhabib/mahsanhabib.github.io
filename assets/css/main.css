@@ -10064,6 +10064,100 @@ body {
     font-weight: 600
 }
 
+.feature-panel {
+    padding: 1.2rem 1.35rem;
+    border: 1px solid #e6e9ee;
+    border-left: 4px solid #b509ac;
+    border-radius: 8px;
+    background: #fbfcfe
+}
+
+.feature-panel h2 {
+    margin: 0 0 0.45rem;
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.35
+}
+
+.feature-panel p:last-child {
+    margin-bottom: 0
+}
+
+.section-kicker,
+.course-code,
+.record-date {
+    margin: 0 0 0.35rem;
+    color: #8f1689;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem
+}
+
+.course-grid--compact {
+    gap: 0.75rem
+}
+
+.course-card,
+.record-card {
+    border: 1px solid #e6e9ee;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(30,40,55,0.06)
+}
+
+.course-card {
+    min-height: 100%;
+    padding: 1rem
+}
+
+.course-card h2,
+.course-card h3 {
+    margin: 0 0 0.45rem;
+    color: #222;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35
+}
+
+.course-card p:last-child {
+    margin-bottom: 0
+}
+
+.record-list {
+    display: grid;
+    gap: 0.75rem
+}
+
+.record-card {
+    display: grid;
+    grid-template-columns: minmax(8.75rem, 0.35fr) minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem
+}
+
+.record-card h2 {
+    margin: 0 0 0.25rem;
+    color: #222;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35
+}
+
+.record-card p {
+    margin: 0;
+    color: #555;
+    font-size: 0.94rem;
+    line-height: 1.6
+}
+
 .page__footer {
     background: #fff;
     border-top: 1px solid #e8e8e8
@@ -10130,5 +10224,20 @@ body {
     .folio-list__date {
         margin-top: 0.35rem;
         font-weight: 600
+    }
+
+    .course-grid,
+    .record-card {
+        grid-template-columns: 1fr
+    }
+
+    .record-card {
+        gap: 0.35rem
+    }
+
+    .feature-panel,
+    .course-card,
+    .record-card {
+        padding: 0.9rem
     }
 }
