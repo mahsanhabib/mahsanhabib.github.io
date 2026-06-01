@@ -16,9 +16,9 @@
                             <li class="masthead__menu-item masthead__menu-item--lg"><a href="index.html">Md. Ahsan Habib</a></li>
                             <li class="masthead__menu-item"><a href="index.html">about</a></li>
                             <li class="masthead__menu-item"><a href="publications.html">publications</a></li>
-                            <li class="masthead__menu-item"><a href="repositories.html">repositories</a></li>
                             <li class="masthead__menu-item"><a href="experience.html">experience</a></li>
                             <li class="masthead__menu-item"><a href="teaching.html">teaching</a></li>
+                            <li class="masthead__menu-item"><a href="service.html">service</a></li>
                             <li class="masthead__menu-item"><a class="is-active" href="cv.html">cv</a></li>
                         </ul>
                     </nav>
@@ -26,17 +26,261 @@
             </div>
         </div>
         <main id="main" class="folio-main" role="main">
-            <article class="page">
+            <article class="page cv-page">
                 <div class="page__inner-wrap">
                     <section class="folio-section folio-page-title">
                         <h1>CV</h1>
-                        <p>Download the latest curriculum vitae.</p>
+                        <p>Curriculum vitae with profile, experience, education, teaching, service, publications, and skills.</p>
                     </section>
-                    <section class="folio-section">
-                        <p><a class="btn btn--primary" href="files/CV - Md. Ahsan Habib.pdf">Open CV</a></p>
+
+                    <section class="folio-section cv-actions">
+                        <p>
+                            <a class="btn btn--primary" href="files/CV - Md. Ahsan Habib.pdf" target="_blank" rel="noopener">Download PDF CV</a>
+                            <a class="btn" href="files/CV - Md. Ahsan Habib.pdf">Open in Browser</a>
+                        </p>
+                    </section>
+
+                    <nav class="cv-subnav" aria-label="CV section navigation">
+                        <a href="#basics">Basics</a>
+                        <a href="#work">Work</a>
+                        <a href="#education">Education</a>
+                        <a href="#teaching">Teaching</a>
+                        <a href="#service">Service</a>
+                        <a href="#publications">Publications</a>
+                        <a href="#skills">Skills</a>
+                    </nav>
+
+                    <section class="folio-section" id="basics">
+                        <h2><i class="fas fa-user cv-heading-icon" aria-hidden="true"></i>Basics</h2>
+                        <article class="cv-card">
+                            <h3>Md. Ahsan Habib</h3>
+                            <p class="cv-summary">PhD Student, Department of Computer Science, Tulane University. Researching blockchain scalability, blockchain sharding, cryptography, secure systems, and quantum-safe computation.</p>
+                            <p>
+                                <a href="https://mahsanhabib.github.io/">Website</a> |
+                                <a href="https://scholar.google.com/citations?hl=en&user=_E8dr9MAAAAJ">Google Scholar</a> |
+                                <a href="https://github.com/mahsanhabib">GitHub</a> |
+                                <a href="https://www.linkedin.com/in/md-ahsan-habib-405735161/">LinkedIn</a>
+                            </p>
+                        </article>
+                    </section>
+
+                    <section class="folio-section" id="work">
+                        <h2><i class="fas fa-briefcase cv-heading-icon" aria-hidden="true"></i>Work</h2>
+                        <div class="cv-timeline">
+                            <article class="cv-card">
+                                <h3>PhD Student / Research Assistant</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">Aug 2024 - Present</span>
+                                    <span class="cv-badge cv-badge--loc">Tulane University, USA</span>
+                                </p>
+                                <p>Department of Computer Science.</p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>Assistant Professor (on leave)</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">Jun 2024 - Present</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                                <p>Department of Computer Science and Engineering.</p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>Lecturer</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">Feb 2022 - Jun 2024</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                                <p>Department of Computer Science and Engineering.</p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>Lecturer (Part-time)</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">Sep 2024</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                                <p>Department of Computer Science and Engineering.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="folio-section" id="education">
+                        <h2><i class="fas fa-graduation-cap cv-heading-icon" aria-hidden="true"></i>Education</h2>
+                        <div class="cv-timeline">
+                            <article class="cv-card">
+                                <h3>PhD in Computer Science</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2024 - Present</span>
+                                    <span class="cv-badge cv-badge--loc">Tulane University, USA</span>
+                                </p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>MSc in Computer Science and Engineering</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2023</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>BSc in Computer Science and Engineering</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2020</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="folio-section" id="teaching">
+                        <h2><i class="fas fa-chalkboard-teacher cv-heading-icon" aria-hidden="true"></i>Teaching</h2>
+                        <div class="cv-timeline">
+                            <article class="cv-card">
+                                <h3>Assistant Professor (on leave)</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">Jun 2024 - Present</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                                <p>Department of Computer Science and Engineering.</p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>Lecturer</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2022 - 2024</span>
+                                    <span class="cv-badge cv-badge--loc">KUET, Bangladesh</span>
+                                </p>
+                                <p>Computer science fundamentals, security, cryptography, and blockchain-focused topics.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="folio-section" id="service">
+                        <h2><i class="fas fa-hands-helping cv-heading-icon" aria-hidden="true"></i>Service</h2>
+                        <div class="cv-timeline">
+                            <article class="cv-card">
+                                <h3>Web Chair</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2025</span>
+                                    <span class="cv-badge cv-badge--loc">Great Lakes Symposium on VLSI (GLSVLSI)</span>
+                                </p>
+                                <p>Conference organizing role at <a href="https://www.glsvlsi.org/" target="_blank" rel="noopener">Great Lakes Symposium on VLSI (GLSVLSI) 2025</a>.</p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>Reviewer</h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">Recent</span>
+                                    <span class="cv-badge cv-badge--loc">Academic Service</span>
+                                </p>
+                                <p>Arabian Journal for Science and Engineering.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="folio-section" id="publications">
+                        <h2><i class="fas fa-book cv-heading-icon" aria-hidden="true"></i>Selected Publications</h2>
+                        <div class="cv-timeline">
+                            <article class="cv-card">
+                                <h3><a href="https://doi.org/10.1016/j.compbiomed.2025.110611">Blockchain-aided comparative study of heart disease detection using machine learning-based approaches with an expanded dataset</a></h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2025</span>
+                                    <span class="cv-badge cv-badge--loc">Computers in Biology and Medicine</span>
+                                </p>
+                            </article>
+                            <article class="cv-card">
+                                <h3><a href="https://arxiv.org/abs/2503.22709">Analyzing Performance Bottlenecks in Zero-Knowledge Proof Based Rollups on Ethereum</a></h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2025</span>
+                                    <span class="cv-badge cv-badge--loc">arXiv</span>
+                                </p>
+                            </article>
+                            <article class="cv-card">
+                                <h3><a href="https://doi.org/10.1049/blc2.70008">ShaEr: A Blockchain-Based Framework for Secure Medical Data Sharing and Monetisation</a></h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2025</span>
+                                    <span class="cv-badge cv-badge--loc">IET Blockchain</span>
+                                </p>
+                            </article>
+                            <article class="cv-card">
+                                <h3><a href="https://doi.org/10.1109/BCCA58897.2023.10338881">A technique to avoid blockchain denial of service (BDoS) and selfish mining attack</a></h3>
+                                <p class="cv-badges">
+                                    <span class="cv-badge cv-badge--date">2023</span>
+                                    <span class="cv-badge cv-badge--loc">BCCA</span>
+                                </p>
+                            </article>
+                            <article class="cv-card">
+                                <h3>More Publications</h3>
+                                <p>See the full list on the <a href="publications.html">Publications page</a> and <a href="https://scholar.google.com/citations?hl=en&user=_E8dr9MAAAAJ">Google Scholar</a>.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="folio-section" id="skills">
+                        <h2><i class="fas fa-tools cv-heading-icon" aria-hidden="true"></i>Skills and Interests</h2>
+                        <article class="cv-card">
+                            <p><strong>Research:</strong> Blockchain scalability, blockchain sharding, cryptography, secure systems, and quantum-safe computation.</p>
+                            <p><strong>Technical:</strong> Machine learning, deep learning, blockchain applications, security-focused systems, and data-driven modeling.</p>
+                            <p><strong>Focus:</strong> Scalable decentralized systems, reliable data integrity, and practical cryptographic security.</p>
+                        </article>
                     </section>
                 </div>
             </article>
         </main>
+
+        <script>
+            (function() {
+                var cvPage = document.querySelector('.cv-page');
+                if (!cvPage) {
+                    return;
+                }
+
+                var navLinks = Array.prototype.slice.call(document.querySelectorAll('.cv-subnav a[href^="#"]'));
+                var sections = navLinks.map(function(link) {
+                    var target = link.getAttribute('href');
+                    return document.querySelector(target);
+                }).filter(function(section) {
+                    return !!section;
+                });
+
+                function setActive(id) {
+                    navLinks.forEach(function(link) {
+                        link.classList.toggle('is-current', link.getAttribute('href') === '#' + id);
+                    });
+                }
+
+                if (sections.length > 0) {
+                    setActive(sections[0].id);
+                }
+
+                if ('IntersectionObserver' in window && sections.length > 0) {
+                    var sectionObserver = new IntersectionObserver(function(entries) {
+                        entries.forEach(function(entry) {
+                            if (entry.isIntersecting) {
+                                setActive(entry.target.id);
+                            }
+                        });
+                    }, {
+                        rootMargin: '-35% 0px -55% 0px',
+                        threshold: 0.01
+                    });
+
+                    sections.forEach(function(section) {
+                        sectionObserver.observe(section);
+                    });
+
+                    cvPage.classList.add('cv-animate');
+                    var cardObserver = new IntersectionObserver(function(entries, observer) {
+                        entries.forEach(function(entry) {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add('is-visible');
+                                observer.unobserve(entry.target);
+                            }
+                        });
+                    }, {
+                        threshold: 0.12
+                    });
+
+                    document.querySelectorAll('.cv-card').forEach(function(card) {
+                        cardObserver.observe(card);
+                    });
+                }
+            })();
+        </script>
     </body>
 </html>
